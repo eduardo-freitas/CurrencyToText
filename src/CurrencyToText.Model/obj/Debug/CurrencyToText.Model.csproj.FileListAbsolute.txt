@@ -1,0 +1,6 @@
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Model\bin\Debug\CurrencyToText.Model.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Model\bin\Debug\CurrencyToText.Model.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Model\obj\Debug\CurrencyToText.Model.csprojAssemblyReference.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Model\obj\Debug\CurrencyToText.Model.csproj.CoreCompileInputs.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Model\obj\Debug\CurrencyToText.Model.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Model\obj\Debug\CurrencyToText.Model.pdb

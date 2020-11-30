@@ -1,0 +1,9 @@
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\bin\Debug\netcoreapp2.2\CurrencyToText.Domain.deps.json
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\bin\Debug\netcoreapp2.2\CurrencyToText.Domain.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\bin\Debug\netcoreapp2.2\CurrencyToText.Domain.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\obj\Debug\netcoreapp2.2\CurrencyToText.Domain.csprojAssemblyReference.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\obj\Debug\netcoreapp2.2\CurrencyToText.Domain.csproj.CoreCompileInputs.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\obj\Debug\netcoreapp2.2\CurrencyToText.Domain.AssemblyInfoInputs.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\obj\Debug\netcoreapp2.2\CurrencyToText.Domain.AssemblyInfo.cs
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\obj\Debug\netcoreapp2.2\CurrencyToText.Domain.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Domain\obj\Debug\netcoreapp2.2\CurrencyToText.Domain.pdb

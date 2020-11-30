@@ -1,0 +1,13 @@
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\CurrencyToText.DataAccess.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\CurrencyToText.DataAccess.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\CurrencyToText.Model.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\CurrencyToText.Model.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\obj\Debug\CurrencyToText.DataAccess.csprojAssemblyReference.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\obj\Debug\CurrencyToText.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\obj\Debug\CurrencyToText.DataAccess.csproj.CopyComplete
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\obj\Debug\CurrencyToText.DataAccess.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\obj\Debug\CurrencyToText.DataAccess.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\Newtonsoft.Json.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\Newtonsoft.Json.xml
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.DataAccess\bin\Debug\System.Net.Http.Formatting.xml

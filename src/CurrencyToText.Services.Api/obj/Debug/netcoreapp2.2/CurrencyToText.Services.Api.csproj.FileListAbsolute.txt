@@ -1,0 +1,17 @@
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\bin\Debug\netcoreapp2.2\CurrencyToText.Services.Api.deps.json
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\bin\Debug\netcoreapp2.2\CurrencyToText.Services.Api.runtimeconfig.json
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\bin\Debug\netcoreapp2.2\CurrencyToText.Services.Api.runtimeconfig.dev.json
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\bin\Debug\netcoreapp2.2\CurrencyToText.Services.Api.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\bin\Debug\netcoreapp2.2\CurrencyToText.Services.Api.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\bin\Debug\netcoreapp2.2\CurrencyToText.Domain.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\bin\Debug\netcoreapp2.2\CurrencyToText.Domain.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.csprojAssemblyReference.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.csproj.CoreCompileInputs.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.RazorAssemblyInfo.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.RazorAssemblyInfo.cs
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.AssemblyInfoInputs.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.AssemblyInfo.cs
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.RazorTargetAssemblyInfo.cache
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.csproj.CopyComplete
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.dll
+C:\Users\efreitas\source\repos\CurrencyToText\src\CurrencyToText.Services.Api\obj\Debug\netcoreapp2.2\CurrencyToText.Services.Api.pdb
