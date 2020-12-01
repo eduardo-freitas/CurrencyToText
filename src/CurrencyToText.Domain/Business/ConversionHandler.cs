@@ -1,10 +1,10 @@
-﻿using System;
+﻿using CurrencyToText.Domain.Contract;
 
 namespace CurrencyToText.Domain.Business
 {
     public class ConversionHandler : IConversionHandler
     {
-        public string ConvertFromCurrencyToWords(decimal currencyValue)
+        public string ConvertFromCurrencyToText(decimal currencyValue)
         {
             var dollars = (int) currencyValue;
             var cents = (int) ((currencyValue % 1.0m) * 100.0m);
@@ -101,7 +101,7 @@ namespace CurrencyToText.Domain.Business
                         tensWords = "sixteen";
                         break;
                     case 5:
-                        tensWords = "fiftenn";
+                        tensWords = "fifteen";
                         break;
                     case 4:
                         tensWords = "fourteen";

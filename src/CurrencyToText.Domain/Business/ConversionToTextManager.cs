@@ -4,16 +4,16 @@ using CurrencyToText.Domain.Model;
 
 namespace CurrencyToText.Domain.Business
 {
-    public class ConversionToWordsManager : IConversionToWordsManager
+    public class ConversionToTextManager : IConversionToTextManager
     {
         private readonly IConversionHandler _conversionHelper;
         private const decimal MaxCurrencyValue = 999_999_999.99m;
-        public ConversionToWordsManager(IConversionHandler conversionHelper)
+        public ConversionToTextManager(IConversionHandler conversionHelper)
         {
             this._conversionHelper = conversionHelper;
         }
 
-        public DomainResponse<ConvertedValueModel> ConvertToWords(CurrencyValueToConvert currencyValue)
+        public DomainResponse<ConvertedValueModel> ConvertToText(CurrencyValueToConvert currencyValue)
         {
             if (currencyValue.CurrencyValue > MaxCurrencyValue)
             {
@@ -25,7 +25,7 @@ namespace CurrencyToText.Domain.Business
 
             try
             {
-                var convertedValue = _conversionHelper.ConvertFromCurrencyToWords(currencyValue.CurrencyValue);
+                var convertedValue = _conversionHelper.ConvertFromCurrencyToText(currencyValue.CurrencyValue);
                 return new DomainResponse<ConvertedValueModel>(
                     new ConvertedValueModel(currencyValue.CurrencyValue, convertedValue),
                     null

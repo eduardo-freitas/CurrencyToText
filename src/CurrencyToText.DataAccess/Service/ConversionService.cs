@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Configuration;
 using System.Net.Http;
 using System.Net.Http.Headers;
 using System.Threading.Tasks;
@@ -13,7 +14,8 @@ namespace CurrencyToText.DataAccess.Service
 
         public ConversionService()
         {
-            _apiClient = new HttpClient {BaseAddress = new Uri("http://localhost:5000/")};
+            var uri = new Uri(ConfigurationManager.AppSettings["ApiServerUri"]);
+            _apiClient = new HttpClient {BaseAddress = uri};
             _apiClient.DefaultRequestHeaders.Accept.Clear();
             _apiClient.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
@@ -21,9 +23,10 @@ namespace CurrencyToText.DataAccess.Service
 
         public async Task<ConvertedValueModel> ConvertToTextAsync(CurrencyToConvertModel currencyToConvertModel)
         {
+            var route = ConfigurationManager.AppSettings["ApiConversionRoute"];
             ConvertedValueModel convertedCurrencyValue = null;
             HttpResponseMessage response = await _apiClient.PostAsJsonAsync(
-                "api/currency-to-words", currencyToConvertModel).ConfigureAwait(false);
+                route, currencyToConvertModel).ConfigureAwait(false);
             response.EnsureSuccessStatusCode();
 
             if (response.IsSuccessStatusCode)

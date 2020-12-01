@@ -13,11 +13,11 @@ namespace CurrencyToText.Domain.Tests
     public class CurrencyToTextControllerTest
     {
         private readonly CurrencyToTextController _controller;
-        private readonly IConversionToWordsManager _manager;
+        private readonly IConversionToTextManager _manager;
 
         public CurrencyToTextControllerTest()
         {
-            _manager = Mock.Create<IConversionToWordsManager>();
+            _manager = Mock.Create<IConversionToTextManager>();
             _controller = new CurrencyToTextController(_manager);
         }
 
@@ -28,7 +28,7 @@ namespace CurrencyToText.Domain.Tests
             var currencyConvertedModel = new DomainResponse<ConvertedValueModel>(
                 new ConvertedValueModel(currencyToBeConverted.CurrencyValue, "one hundred dollars"), null);
 
-            Mock.Arrange(() => _manager.ConvertToWords(currencyToBeConverted)).
+            Mock.Arrange(() => _manager.ConvertToText(currencyToBeConverted)).
                 Returns(currencyConvertedModel);
 
             var response = _controller.ConvertFromCurrencyToWords(currencyToBeConverted);
@@ -50,7 +50,7 @@ namespace CurrencyToText.Domain.Tests
             var currencyConvertedModel = new DomainResponse<ConvertedValueModel>(
                 null, "Value too large");
 
-            Mock.Arrange(() => _manager.ConvertToWords(currencyToBeConverted)).
+            Mock.Arrange(() => _manager.ConvertToText(currencyToBeConverted)).
                 Returns(currencyConvertedModel);
 
             var response = _controller.ConvertFromCurrencyToWords(currencyToBeConverted);
@@ -70,7 +70,7 @@ namespace CurrencyToText.Domain.Tests
         {
             var currencyToBeConverted = new CurrencyValueToConvert(100m);
 
-            Mock.Arrange(() => _manager.ConvertToWords(currencyToBeConverted)).
+            Mock.Arrange(() => _manager.ConvertToText(currencyToBeConverted)).
                 Throws<Exception>();
 
             var response = _controller.ConvertFromCurrencyToWords(currencyToBeConverted);

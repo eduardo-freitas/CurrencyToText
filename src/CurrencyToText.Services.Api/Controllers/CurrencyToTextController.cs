@@ -12,8 +12,8 @@ namespace CurrencyToText.Services.Api.Controllers
     [ApiController]
     public class CurrencyToTextController : ControllerBase
     {
-        private readonly IConversionToWordsManager _conversionToWordsManager;
-        public CurrencyToTextController(IConversionToWordsManager conversionToWordsManager)
+        private readonly IConversionToTextManager _conversionToWordsManager;
+        public CurrencyToTextController(IConversionToTextManager conversionToWordsManager)
         {
             this._conversionToWordsManager = conversionToWordsManager;
         }
@@ -23,7 +23,7 @@ namespace CurrencyToText.Services.Api.Controllers
         {
             try
             {
-                var response = _conversionToWordsManager.ConvertToWords(currencyValue);
+                var response = _conversionToWordsManager.ConvertToText(currencyValue);
 
                 if (response.DomainError != null)
                 {

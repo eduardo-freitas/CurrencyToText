@@ -28,7 +28,7 @@ namespace CurrencyToText.Services.Api
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
             services.AddScoped<IConversionHandler, ConversionHandler>();
-            services.AddScoped<IConversionToWordsManager, ConversionToWordsManager>();
+            services.AddScoped<IConversionToTextManager, ConversionToTextManager>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

@@ -1,7 +1,7 @@
-﻿namespace CurrencyToText.Domain.Business
+﻿namespace CurrencyToText.Domain.Contract
 {
     public interface IConversionHandler
     {
-        string ConvertFromCurrencyToWords(decimal currencyValue);
+        string ConvertFromCurrencyToText(decimal currencyValue);
     }
 }
