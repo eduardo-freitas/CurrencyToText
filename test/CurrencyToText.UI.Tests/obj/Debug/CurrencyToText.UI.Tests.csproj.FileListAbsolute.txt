@@ -19,3 +19,12 @@ C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\D
 C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\obj\Debug\CurrencyToText.UI.Tests.csproj.CopyComplete
 C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\obj\Debug\CurrencyToText.UI.Tests.dll
 C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\obj\Debug\CurrencyToText.UI.Tests.pdb
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\System.Net.Http.Formatting.dll
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\Newtonsoft.Json.dll
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\System.Net.Http.Formatting.xml
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\Newtonsoft.Json.xml
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\CurrencyToText.UI.Tests.dll.config
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\Telerik.JustMock.dll
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\efreitas\source\repos\CurrencyToText\test\CurrencyToText.UI.Tests\bin\Debug\Telerik.JustMock.xml

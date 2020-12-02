@@ -12,16 +12,17 @@ namespace CurrencyToText.DataAccess.Service
     {
         private readonly HttpClient _apiClient;
 
-        public ConversionService()
+        public ConversionService(HttpClient apiClient)
         {
             var uri = new Uri(ConfigurationManager.AppSettings["ApiServerUri"]);
-            _apiClient = new HttpClient {BaseAddress = uri};
+            _apiClient = apiClient;
+            _apiClient.BaseAddress = uri;
             _apiClient.DefaultRequestHeaders.Accept.Clear();
             _apiClient.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue("application/json"));
         }
 
-        public async Task<ConvertedValueModel> ConvertToTextAsync(CurrencyToConvertModel currencyToConvertModel)
+        private async Task<ConvertedValueModel> ConvertToTextAsync(CurrencyToConvertModel currencyToConvertModel)
         {
             var route = ConfigurationManager.AppSettings["ApiConversionRoute"];
             ConvertedValueModel convertedCurrencyValue = null;

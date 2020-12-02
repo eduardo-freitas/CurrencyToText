@@ -9,7 +9,7 @@ namespace CurrencyToText.Domain.Tests
         private readonly ConversionHandler _conversionHandler = new ConversionHandler();
 
         [TestMethod]
-        public void _0DollarsConversion()
+        public void WhenConverting_ValidValue_ShouldConvert1()
         {
             var currencyValue = 0m;
             var convertedValue = _conversionHandler.ConvertFromCurrencyToText(currencyValue);
@@ -17,7 +17,7 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void _1DollarConversion()
+        public void WhenConverting_ValidValue_ShouldConvert2()
         {
             var currencyValue = 1m;
             var convertedValue = _conversionHandler.ConvertFromCurrencyToText(currencyValue);
@@ -25,7 +25,7 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void _25DollarsAnd10CentsConversion()
+        public void WhenConverting_ValidValue_ShouldConvert3()
         {
             var currencyValue = 25.1m;
             var convertedValue = _conversionHandler.ConvertFromCurrencyToText(currencyValue);
@@ -33,7 +33,7 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void _1CentConversion()
+        public void WhenConverting_ValidValue_ShouldConvert4()
         {
             var currencyValue = 0.01m;
             var convertedValue = _conversionHandler.ConvertFromCurrencyToText(currencyValue);
@@ -41,7 +41,7 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void _45ThousandsConversion()
+        public void WhenConverting_ValidValue_ShouldConvert5()
         {
             var currencyValue = 45_100m;
             var convertedValue = _conversionHandler.ConvertFromCurrencyToText(currencyValue);
@@ -49,11 +49,19 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void _999MillionsConversion()
+        public void WhenConverting_ValidValue_ShouldConvert6()
         {
             var currencyValue = 999999999.99m;
             var convertedValue = _conversionHandler.ConvertFromCurrencyToText(currencyValue);
             Assert.AreEqual(convertedValue, "nine hundred ninety-nine million nine hundred ninety-nine thousand nine hundred ninety-nine dollars and ninety-nine cents");
+        }
+
+        [TestMethod]
+        public void WhenConverting_ValidValue_ShouldConvert7()
+        {
+            var currencyValue = 1_000m;
+            var convertedValue = _conversionHandler.ConvertFromCurrencyToText(currencyValue);
+            Assert.AreEqual(convertedValue, "one thousand dollars");
         }
     }
 }

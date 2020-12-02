@@ -20,7 +20,7 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void ConversionWithSuccess()
+        public void WhenPerformingValidConversion_ShouldReturnSuccess()
         {
             var currencyToBeConverted = new CurrencyValueToConvert(100m);
             var currencyConverted = "one hundred dollars";
@@ -38,7 +38,7 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void ErrorWhenCurrencyGreaterThanUpperLimit()
+        public void WhenPerformingInvalidConversion_ShouldReturnError()
         {
             var currencyToBeConverted = new CurrencyValueToConvert(1_000_000_000m);
 
@@ -50,7 +50,7 @@ namespace CurrencyToText.Domain.Tests
         }
 
         [TestMethod]
-        public void ErrorWhenConversionThrowsAnExpection()
+        public void WhenPerformingAConversion_AndAnExceptionHappenShouldReturnError()
         {
             var currencyToBeConverted = new CurrencyValueToConvert(100m);
 
